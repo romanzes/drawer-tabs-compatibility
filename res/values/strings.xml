@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Drawer Tabs Compatibility</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="select_tab">Select category</string>
+    <string name="stub">Nothing to do here</string>
+    <string-array name="nav_items">
+        <item>Operation Systems</item>
+        <item>Astronomy</item>
+        <item>No tabs</item>
+    </string-array>
+    <string name="planets">Planets</string>
+    <string name="stars">Stars</string>
+    <string name="constellations">Constellations</string>
+    <string name="android">Android</string>
+    <string name="apple">Apple</string>
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Pluto</item>
+    </string-array>
+    <string-array name="stars">
+        <item>Aldebaran</item>
+        <item>Antares</item>
+        <item>Arcturus</item>
+        <item>Betelgeuse</item>
+        <item>Pollux</item>
+        <item>Rigel</item>
+        <item>Sirius</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="constellations">
+        <item>Andromeda</item>
+        <item>Cassiopeia</item>
+        <item>Centaurus</item>
+        <item>Corona Australis</item>
+        <item>Gemini</item>
+        <item>Hydra</item>
+        <item>Pegasus</item>
+        <item>Scorpius</item>
+    </string-array>
+    <string-array name="apple">
+        <item>Mountain Lion</item>
+        <item>Lion</item>
+        <item>Snow Leopard</item>
+        <item>Leopard</item>
+        <item>Tiger</item>
+        <item>Panther</item>
+        <item>Jaguar</item>
+        <item>Puma</item>
+    </string-array>
+    <string-array name="android">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+        <item>Honeycomb</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Jelly Bean</item>
+        <item>KitKat</item>
+    </string-array>
+</resources>
