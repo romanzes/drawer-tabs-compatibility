@@ -25,10 +25,12 @@ public class ArrayFragment extends ListFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		if (savedInstanceState != null) {
-			setContent(savedInstanceState.getStringArray(itemsKey));
+		// Load saved items
+		Bundle arguments = getArguments();
+		if (arguments != null) {
+			setContent(arguments.getStringArray(itemsKey));
 		}
-
+		
 		// Creating array adapter to set data in listview
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity().getBaseContext(),
 				android.R.layout.simple_list_item_1, items);
@@ -45,3 +47,4 @@ public class ArrayFragment extends ListFragment {
 		outState.putStringArray(itemsKey, items);
 	}
 }
+
